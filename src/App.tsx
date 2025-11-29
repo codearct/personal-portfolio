@@ -3,8 +3,12 @@
  * @license Apache-2.0
  */
 
-import { Button } from "@/components/ui/button"
+import { Button } from '@/components/ui/button';
 
-export const App =()=>{
-  return <Button>Click Me</Button>;
+export const App = () => {
+  return (
+    <div className='h-[300vh]'>
+      <Button>Hello world</Button>
+    </div>
+  );
 };
