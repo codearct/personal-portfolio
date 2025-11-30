@@ -46,6 +46,8 @@ export const Profile = () => {
               <a
                 key={i}
                 href={social.link}
+                target='_blank'
+                rel='noopener noreferrer'
                 className='hover:text-primary border-2 border-neutral-500 p-2 rounded-full hover:border-primary transition duration-200'
               >
                 <Icon className='size-6' />

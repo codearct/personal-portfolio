@@ -62,12 +62,12 @@ const socialLinks: LinksType[] = [
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    link: '/#',
+    link: 'https://www.linkedin.com/in/mehmet-akif-yildiz/',
   },
   {
     icon: Github,
     label: 'Github',
-    link: '/#',
+    link: 'https://github.com/codearct',
   },
 ];
 
@@ -204,16 +204,16 @@ const services: ServiceType[] = [
 
 const statsData: StatsType[] = [
   {
-    number: '30+',
-    label: 'Happy Clients',
-  },
-  {
-    number: '05+',
+    number: '04+',
     label: 'Years Of Experience',
   },
   {
-    number: '50+',
-    label: 'Projects Done',
+    number: '80+',
+    label: 'API Endpoints Developed',
+  },
+  {
+    number: '100+',
+    label: 'Agile Sprints Completed',
   },
 ];
 
