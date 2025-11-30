@@ -74,27 +74,27 @@ const socialLinks: LinksType[] = [
 const projectsData: ProjectType[] = [
   {
     imgSrc: '/images/project-ph-1.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: 'Dotnet Microservice Project',
+    tags: ['EBazaar', 'Microservice'],
+    projectLink: 'https://github.com/codearct/EBazaar',
   },
   {
     imgSrc: '/images/project-ph-2.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: 'Patika-Sodexo .NET Core Bootcamp Project',
+    tags: ['ByCell', 'Bootcamp'],
+    projectLink: 'https://github.com/codearct/ByCell',
   },
   {
     imgSrc: '/images/project-ph-3.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: 'Technological Term Dictionary ',
+    tags: ['TechSoz', 'Full Stack'],
+    projectLink: 'https://github.com/codearct/TechSoz',
   },
   {
     imgSrc: '/images/project-ph-4.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: '.Net Movie Store Project',
+    tags: ['MovieStore', 'Full Stack'],
+    projectLink: 'https://github.com/codearct/MovieStore',
   },
 ];
 

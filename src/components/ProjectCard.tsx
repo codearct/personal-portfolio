@@ -30,11 +30,17 @@ export const ProjectCard = ({
       className='relative'
     >
       <figure className='overflow-hidden rounded-md'>
-        <img
-          src={imgSrc}
-          alt={title}
-          className='rounded-md transition duration-500 hover:scale-110 w-full cursor-pointer'
-        />
+        <a
+          href={projectLink}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img
+            src={imgSrc}
+            alt={title}
+            className='rounded-md transition duration-500 hover:scale-110 w-full cursor-pointer'
+          />
+        </a>
       </figure>
 
       <div className='absolute bottom-0 p-2 flex gap-2'>
