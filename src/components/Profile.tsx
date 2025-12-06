@@ -60,7 +60,7 @@ export const Profile = () => {
           className='mt-2'
           size='lg'
         >
-          Hire me!
+          Let's Work!
         </Button>
       </div>
     </aside>
