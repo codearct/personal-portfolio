@@ -100,73 +100,58 @@ const projectsData: ProjectType[] = [
 
 const education: ExperienceType[] = [
   {
-    year: '2018 – 2020',
-    title: 'Bachelor of Computer Science',
-    institute: 'National University of Technology',
-    desc: 'Focused on front-end development, UI design, and web application architecture.',
+    year: 'Sep 1999 – Sep 2005',
+    title: 'Bachelor of Architecture',
+    instituteOrCompany: 'Middle East Technical University',
+    desc: 'Built a foundation in analytical design, spatial reasoning, and structured problem-solving',
   },
   {
-    year: '2021 – 2022',
-    title: 'Frontend Development Bootcamp',
-    institute: 'Udemy / Online Course',
-    desc: 'Learned modern JavaScript, React, and responsive UI patterns through real-world projects.',
-  },
-  {
-    year: '2023',
-    title: 'Advanced UI/UX Design Course',
-    institute: 'Design+Code',
-    desc: 'Explored advanced design systems, motion design, and accessibility best practices.',
+    year: 'Dec 2021 – Feb 2022',
+    title: 'PatikaDev-Sodexo .Net Core Bootcamp',
+    instituteOrCompany: 'Online Course',
+    desc: 'Learned modern C# and .NET Core through real-world projects.',
   },
 ];
 
 const experience: ExperienceType[] = [
   {
-    year: '2021 – 2022',
-    title: 'Frontend Developer Intern',
-    institute: 'PixelForge Studio',
-    desc: 'Built and optimized responsive websites, collaborating closely with designers and backend teams.',
+    year: 'Nov 2021 – Feb 2022',
+    title: 'Intern',
+    instituteOrCompany: 'İletişim Yazılım, Bursa',
+    desc: 'Assisted in backend development using C# and ASP.NET MVC; optimized MSSQL database structures; managed version control using Git and TFS.',
   },
   {
-    year: '2022 – Present',
-    title: 'UI Engineer',
-    institute: 'Freelance / Remote Work',
-    desc: 'Designed and developed web interfaces for SaaS startups using React, Tailwind, and Figma.',
+    year: 'Mar 2022 – Sep 2024',
+    title: 'Jr. Software Developer',
+    instituteOrCompany: 'Pluxee (Sodexo), İstanbul (Remote)',
+    desc: 'Worked on modernization of legacy applications; developed high-performance solutions using C#, ASP.NET Core Web API, MSSQL, Oracle, Blazor WebAssembly, and Microsoft Orleans; contributed to Azure DevOps pipelines and Agile/Scrum processes; implemented and integrated SOAP services.',
+  },
+  {
+    year: 'Sep 2024 – Present',
+    title: 'Software Developer',
+    instituteOrCompany: 'Pluxee (Sodexo), İstanbul (Remote)',
+    desc: 'Led backend development of core product modules end-to-end, delivering scalable and maintainable solutions.',
   },
 ];
 
 const tools: ToolsType[] = [
-  {
-    label: 'Figma',
-    imgSrc: '/images/tools/figma.svg',
-  },
-  {
-    label: 'CSS',
-    imgSrc: '/images/tools/css3.svg',
-  },
-  {
-    label: 'Tailwind CSS',
-    imgSrc: '/images/tools/tailwindcss.svg',
-  },
-  {
-    label: 'React',
-    imgSrc: '/images/tools/react.svg',
-  },
-  {
-    label: 'JavaScript',
-    imgSrc: '/images/tools/javascript.svg',
-  },
-  {
-    label: 'Node.js',
-    imgSrc: '/images/tools/nodejs.svg',
-  },
-  {
-    label: 'Express.js',
-    imgSrc: '/images/tools/expressjs.svg',
-  },
-  {
-    label: 'Mongodb',
-    imgSrc: '/images/tools/mongodb.svg',
-  },
+  // Programming Languages & Frameworks
+  { label: 'C#', imgSrc: '/images/tools/csharp.svg' },
+  { label: '.NET Core', imgSrc: '/images/tools/dotnetcore.svg' },
+  { label: 'ASP.NET Core', imgSrc: '/images/tools/aspnetcore.png' },
+  { label: 'Microsoft Orleans', imgSrc: '/images/tools/orleans.png' },
+
+  // Database & ORM
+  { label: 'MSSQL', imgSrc: '/images/tools/mssql.png' },
+  { label: 'Oracle', imgSrc: '/images/tools/oracle.svg' },
+  { label: 'Entity Framework Core', imgSrc: '/images/tools/efcore.svg' },
+  { label: 'Linq2Db', imgSrc: '/images/tools/linq2db.png' },
+
+  // Tools & Technologies
+  { label: 'Git', imgSrc: '/images/tools/git.svg' },
+  { label: 'Postman', imgSrc: '/images/tools/postman.svg' },
+  { label: 'Docker', imgSrc: '/images/tools/docker.svg' },
+  { label: 'Azure Devops', imgSrc: '/images/tools/azuredevops.svg' },
 ];
 
 const services: ServiceType[] = [

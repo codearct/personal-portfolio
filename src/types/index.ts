@@ -15,7 +15,7 @@ export type ProjectType = {
 export type ExperienceType = {
   year: string;
   title: string;
-  institute: string;
+  instituteOrCompany: string;
   desc: string;
 };
 
