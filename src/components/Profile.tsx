@@ -56,12 +56,12 @@ export const Profile = () => {
           })}
         </div>
 
-        <Button
+        {/* <Button
           className='mt-2'
           size='lg'
         >
           Let's Work!
-        </Button>
+        </Button> */}
       </div>
     </aside>
   );

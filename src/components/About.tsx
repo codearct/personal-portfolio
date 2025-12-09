@@ -51,7 +51,7 @@ export const About = () => {
         variants={fadeUp}
         transition={{ delay: 0.2 }}
       >
-        <Button className='mt-5 w-32'>Contact Me</Button>
+        {/* <Button className='mt-5 w-32'>Contact Me</Button> */}
       </motion.div>
     </motion.section>
   );

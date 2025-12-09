@@ -55,7 +55,7 @@ export const Hero = () => {
           <a href='#projects'>My Projects</a>
         </Button>
 
-        <Button variant='outline'>Download CV</Button>
+        {/* <Button variant='outline'>Download CV</Button> */}
       </motion.div>
     </motion.section>
   );
