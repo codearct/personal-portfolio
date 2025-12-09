@@ -17,7 +17,7 @@ import { fadeUp, staggerContainer } from '@/lib/animation';
  * Components
  */
 import { SectionHeader } from '@/components/SectionHeader';
-import { Button } from '@/components/ui/button';
+// import { Button } from '@/components/ui/button';
 
 export const About = () => {
   return (
